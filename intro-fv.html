@@ -1,377 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>intro-fv.md</title>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-
-    <style>
-      /* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
-      /*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-      body {
-        font-family: var(
-          --vscode-markdown-font-family,
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe WPC",
-          "Segoe UI",
-          "Ubuntu",
-          "Droid Sans",
-          sans-serif
-        );
-        font-size: var(--vscode-markdown-font-size, 22px);
-        padding: 0 26px;
-        line-height: var(--vscode-markdown-line-height, 35px);
-        word-wrap: break-word;
-      }
-
-      #code-csp-warning {
-        position: fixed;
-        top: 0;
-        right: 0;
-        color: white;
-        margin: 16px;
-        text-align: center;
-        font-size: 12px;
-        font-family: sans-serif;
-        background-color: #444444;
-        cursor: pointer;
-        padding: 6px;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-      }
-
-      #code-csp-warning:hover {
-        text-decoration: none;
-        background-color: #007acc;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-      }
-
-      body.scrollBeyondLastLine {
-        margin-bottom: calc(100vh - 22px);
-      }
-
-      body.showEditorSelection .code-line {
-        position: relative;
-      }
-
-      body.showEditorSelection .code-active-line:before,
-      body.showEditorSelection .code-line:hover:before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: -12px;
-        height: 100%;
-      }
-
-      body.showEditorSelection li.code-active-line:before,
-      body.showEditorSelection li.code-line:hover:before {
-        left: -30px;
-      }
-
-      .vscode-light.showEditorSelection .code-active-line:before {
-        border-left: 3px solid rgba(0, 0, 0, 0.15);
-      }
-
-      .vscode-light.showEditorSelection .code-line:hover:before {
-        border-left: 3px solid rgba(0, 0, 0, 0.4);
-      }
-
-      .vscode-light.showEditorSelection .code-line .code-line:hover:before {
-        border-left: none;
-      }
-
-      .vscode-dark.showEditorSelection .code-active-line:before {
-        border-left: 3px solid rgba(255, 255, 255, 0.4);
-      }
-
-      .vscode-dark.showEditorSelection .code-line:hover:before {
-        border-left: 3px solid rgba(255, 255, 255, 0.6);
-      }
-
-      .vscode-dark.showEditorSelection .code-line .code-line:hover:before {
-        border-left: none;
-      }
-
-      .vscode-high-contrast.showEditorSelection .code-active-line:before {
-        border-left: 3px solid rgba(255, 160, 0, 0.7);
-      }
-
-      .vscode-high-contrast.showEditorSelection .code-line:hover:before {
-        border-left: 3px solid rgba(255, 160, 0, 1);
-      }
-
-      .vscode-high-contrast.showEditorSelection
-        .code-line
-        .code-line:hover:before {
-        border-left: none;
-      }
-
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      a:focus,
-      input:focus,
-      select:focus,
-      textarea:focus {
-        outline: 1px solid -webkit-focus-ring-color;
-        outline-offset: -1px;
-      }
-
-      hr {
-        border: 0;
-        height: 2px;
-        border-bottom: 2px solid;
-      }
-
-      h1 {
-        padding-bottom: 0.3em;
-        line-height: 1.2;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-      }
-
-      h1,
-      h2,
-      h3 {
-        font-weight: normal;
-      }
-
-      table {
-        border-collapse: collapse;
-      }
-
-      table > thead > tr > th {
-        text-align: left;
-        border-bottom: 1px solid;
-      }
-
-      table > thead > tr > th,
-      table > thead > tr > td,
-      table > tbody > tr > th,
-      table > tbody > tr > td {
-        padding: 5px 10px;
-      }
-
-      table > tbody > tr + tr > td {
-        border-top: 1px solid;
-      }
-
-      blockquote {
-        margin: 0 7px 0 5px;
-        padding: 0 16px 0 10px;
-        border-left-width: 5px;
-        border-left-style: solid;
-      }
-
-      code {
-        font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New",
-          monospace, "Droid Sans Fallback";
-        font-size: 1em;
-        line-height: 1.357em;
-      }
-
-      body.wordWrap pre {
-        white-space: pre-wrap;
-      }
-
-      pre:not(.hljs),
-      pre.hljs code > div {
-        padding: 16px;
-        border-radius: 3px;
-        overflow: auto;
-      }
-
-      pre code {
-        color: var(--vscode-editor-foreground);
-        tab-size: 4;
-      }
-
-      /** Theming */
-
-      .vscode-light pre {
-        background-color: rgba(220, 220, 220, 0.4);
-      }
-
-      .vscode-dark pre {
-        background-color: rgba(10, 10, 10, 0.4);
-      }
-
-      .vscode-high-contrast pre {
-        background-color: rgb(0, 0, 0);
-      }
-
-      .vscode-high-contrast h1 {
-        border-color: rgb(0, 0, 0);
-      }
-
-      .vscode-light table > thead > tr > th {
-        border-color: rgba(0, 0, 0, 0.69);
-      }
-
-      .vscode-dark table > thead > tr > th {
-        border-color: rgba(255, 255, 255, 0.69);
-      }
-
-      .vscode-light h1,
-      .vscode-light hr,
-      .vscode-light table > tbody > tr + tr > td {
-        border-color: rgba(0, 0, 0, 0.18);
-      }
-
-      .vscode-dark h1,
-      .vscode-dark hr,
-      .vscode-dark table > tbody > tr + tr > td {
-        border-color: rgba(255, 255, 255, 0.18);
-      }
-    </style>
-
-    <style>
-      /* Tomorrow Theme */
-      /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-      /* Original theme - https://github.com/chriskempson/tomorrow-theme */
-
-      /* Tomorrow Comment */
-      .hljs-comment,
-      .hljs-quote {
-        color: #8e908c;
-      }
-
-      /* Tomorrow Red */
-      .hljs-variable,
-      .hljs-template-variable,
-      .hljs-tag,
-      .hljs-name,
-      .hljs-selector-id,
-      .hljs-selector-class,
-      .hljs-regexp,
-      .hljs-deletion {
-        color: #c82829;
-      }
-
-      /* Tomorrow Orange */
-      .hljs-number,
-      .hljs-built_in,
-      .hljs-builtin-name,
-      .hljs-literal,
-      .hljs-type,
-      .hljs-params,
-      .hljs-meta,
-      .hljs-link {
-        color: #f5871f;
-      }
-
-      /* Tomorrow Yellow */
-      .hljs-attribute {
-        color: #eab700;
-      }
-
-      /* Tomorrow Green */
-      .hljs-string,
-      .hljs-symbol,
-      .hljs-bullet,
-      .hljs-addition {
-        color: #718c00;
-      }
-
-      /* Tomorrow Blue */
-      .hljs-title,
-      .hljs-section {
-        color: #4271ae;
-      }
-
-      /* Tomorrow Purple */
-      .hljs-keyword,
-      .hljs-selector-tag {
-        color: #8959a8;
-      }
-
-      .hljs {
-        display: block;
-        overflow-x: auto;
-        color: #4d4d4c;
-        padding: 0.5em;
-      }
-
-      .hljs-emphasis {
-        font-style: italic;
-      }
-
-      .hljs-strong {
-        font-weight: bold;
-      }
-    </style>
-
-    <style>
-      /*
- * Markdown PDF CSS
- */
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
-          "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
-        padding: 0 12px;
-      }
-
-      pre {
-        background-color: #f8f8f8;
-        border: 1px solid #cccccc;
-        border-radius: 3px;
-        overflow-x: auto;
-        white-space: pre-wrap;
-        overflow-wrap: break-word;
-      }
-
-      pre:not(.hljs) {
-        padding: 23px;
-        line-height: 19px;
-      }
-
-      blockquote {
-        background: rgba(127, 127, 127, 0.1);
-        border-color: rgba(0, 122, 204, 0.5);
-      }
-
-      .emoji {
-        height: 1.4em;
-      }
-
-      code {
-        font-size: 14px;
-        line-height: 19px;
-      }
-
-      /* for inline code */
-      :not(pre):not(.hljs) > code {
-        color: #c9ae75; /* Change the old color so it seems less like an error */
-        font-size: inherit;
-      }
-
-      /* Page Break : use <div class="page"/> to insert page break
--------------------------------------------------------- */
-      .page {
-        page-break-after: always;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="file:///c%3A/Users/NEW/Documents/sakura.css"
-      type="text/css"
-    />
-    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sakura-earthly.css".css">
+    <title>Document</title>
   </head>
   <body>
     <script>
@@ -451,6 +85,20 @@
           >5. Hormone­ Replacement Therapy (Menopausal Hormone Therapy)</a
         >
       </li>
+      <li>
+        <a href="#selective-serotonin-reuptake-inhibitors"
+          >Selective­ Serotonin Re‐uptake Inhibitors</a
+        >
+      </li>
+      <li><a href="#cox2-inhibitors">COX‐2 Inhibitors</a></li>
+      <li><a href="#glitazones">Glitazones</a></li>
+      <li><a href="#pandemrix">Pandemrix</a></li>
+      <li>
+        <a href="#main-lessons-learned-from-recent-major-safety-issues"
+          >Main Lessons Learned from Recent Major Safety Issues</a
+        >
+      </li>
+      <li><a href="#conclusions">Conclusions</a></li>
     </ul>
     <h2 id="1-thalidomide-and-introduction">1. Thalidomide and Introduction</h2>
     <p>
@@ -953,6 +601,231 @@
       language. Since then, further studies of HRT have been published and
       discussion of the risks and benefits of these products continues, and is
       likely to for some time to come.
+    </p>
+    <h2 id="selective%C2%AD-serotonin-re%E2%80%90uptake-inhibitors">
+      Selective­ Serotonin Re‐uptake Inhibitors
+    </h2>
+    <p>
+      Selective serotonin re‐uptake inhibitors (SSRIs) are antidepressants which
+      were brought to the market in the late 1980s and have since largely
+      replaced older, tricyclic antidepressants such as amitriptyline. The main
+      reason why they have done so – apart from effective marketing – is that
+      they are less toxic to the heart in overdose (i.e. there is a greater
+      margin of safety in relation to dose). Depressed patients are at risk of
+      taking an overdose and therefore this is potentially an important
+      advantage.
+    </p>
+    <p>
+      There have been two controversial issues with SSRIs: withdrawal reactions
+      and a possible increase in the risk of suicide. Problems experienced by
+      patients when they stop treatments are often quite difficult to assess
+      because they could possibly be related to recurrence of the disease.
+      Nevertheless, the potential for SSRIs to produce withdrawal reactions was
+      identified during their development, and when spontaneous reports were
+      received post‐marketing it was hardly a new signal (see Glossary). There
+      were very large numbers of such reports received, but few were serious and
+      the level of usage of the drugs was high. Over a period of years it became
+      clear that the problem was occurring much more commonly than initially
+      thought, particularly in users of paroxetine (Seroxat), a fairly
+      short‐acting drug. Ultimately, greater care was needed in withdrawing
+      patients more gradually from these drugs. Suggestions have been made that
+      SSRIs are drugs of dependence but most scientists do not accept this
+      because features such as craving and dose‐escalation are generally absent.
+      Importantly, it emerged that the nature of some of the more unpleasant
+      symptoms patients experienced – such as ‘electric shock’ sensations in the
+      head – was being lost in the data processing systems. This was often a
+      result of inadequate coding. Such cases often became ‘paraesthesia’ (a
+      tingling or prickling sensation), something that hardly conveys how
+      unpleasant such sensations can be. Thus, it was recognised that we needed
+      better ways to capture unusual patient experiences and this gave
+      considerable impetus to allowing patients to report their adverse
+      reactions to the authorities. That approach had been used in the USA and
+      some other countries for many years, but hardly at all in Europe until the
+      early years of the twenty‐first century.
+    </p>
+    <p>
+      The possibility that any drug might increase the risk of an outcome
+      associated with the disease it is being used to treat is invariably
+      diffi-cult to evaluate. Suicidal feelings and actions are relatively
+      common in depressed patients and it is not surprising when they occur in a
+      patient who has recently started treatment. Nevertheless, around 1990, a
+      cli-nician in the USA saw several patients treated with fluoxetine
+      (Prozac) who had suicidal thoughts and he published a case series
+      suggesting that the drug might be responsible. This prompted a review of
+      all the clinical trial data for the drug which did not support the
+      proposition, but it was never completely refuted.
+    </p>
+    <p>
+      Over the years more clinical trial data accumulated for various drugs in
+      the class and studies were conducted in children and adoles-cents, the
+      latter being a high‐risk group for suicide. Even in severely depressed
+      patients, completed suicides are rare in clinical trials and therefore the
+      evidence available relates mostly to attempted suicide (also uncommon in
+      trials) and thoughts of suicide measured on various scales. Trials of
+      paroxetine in children produced adverse find-ings – an increased risk of
+      suicidal behaviour and hostility – which for some time were known only to
+      the manufacturer. When the regula-tory authorities eventually received the
+      data, they issued warnings against the use of this drug in children. The
+      company was investigated and prosecution considered, but the law was found
+      to be insufficiently clear that the company was obliged to submit
+      concerning clinical trial data immediately to the authorities when a trial
+      was being conducted outside the authorised indication. Again, this issue
+      pointed to the potential importance of clinical trials in the assessment
+      of safety and raised concern about a lack of transparency with clinical
+      trial data. Considerable steps have since been taken towards making
+      clinical trial data publicly available through mechanisms other than
+      publication in the literature which is slow and selective. There is still
+      some uncertainty as to whether SSRIs directly increase the risk of suicide
+      in adults, but there is general agreement that the early phase of
+      treatment is a high‐risk period and that careful monitoring of patients is
+      required.
+    </p>
+    <h2 id="cox%E2%80%902-inhibitors">COX‐2 Inhibitors</h2>
+    <p>
+      What have been the most prominent drug safety issues of the twenty‐ first
+      century? One of the most important has been the increased risk of
+      cardiovascular outcomes associated with selective COX‐2 inhibitors
+      (coxibs). This possibility was first uncovered in basic research but not
+      followed through. The first clinical indication of a problem came from the
+      VIGOR trial which was published in 2000. At the time, two drugs in the
+      class – rofecoxib and celecoxib – had just been author-ised. The VIGOR
+      study was a randomised comparison of rofecoxib with naproxen (a standard
+      NSAID), designed to establish whether there was a difference in the rates
+      of serious gastrointestinal adverse effects (e.g. bleeding) of these two
+      drugs. In that respect, rofecoxib was clearly preferable and the trial
+      results led to rapid uptake of cox-ibs, on the basis that they were
+      supposedly safer. However, the VIGOR study also found an important
+      difference in the rate of cardiovascular events such as myocardial
+      infarction which were five‐fold more com-mon in patients taking rofecoxib
+      than with naproxen. This information was included in the original
+      publication but lacked prominence and was presented as a fivefold
+      reduction with naproxen rather than an increase with rofecoxib. The paper
+      was subsequently the subject of extensive criticism.
+    </p>
+    <p>
+      Over the years there have been suggestions that standard NSAIDs reduce the
+      risk of cardiovascular outcomes (as aspirin does) and a potential
+      explanation for the finding in the VIGOR study put forward was that
+      naproxen is cardioprotective whereas rofecoxib is not.
+    </p>
+    <p>
+      Ultimately, it took a large clinical trial comparing rofecoxib with
+      placebo­ to establish beyond any doubt that this was an adverse effect of
+      rofecoxib (rather than a lack of benefit) and the findings of that study
+      led to the drug being withdrawn from the market in late 2004. This event
+      sent shockwaves around the world leading people to question why such a
+      trial had not been carried out much earlier, before millions of people had
+      used the drug. It also left a big cloud hanging over the remaining drugs
+      in the class; some were later withdrawn but some remain on the market. At
+      one stage, the proposition that coxibs might be given to people at high
+      risk of gastrointestinal bleeding and low risk of cardiovascular disease
+      seemed reasonable, but it has since been discovered that, to a
+      considerable extent, risk factors for these problems overlap in individual
+      patients. To make matters even more complicated, it appears that some
+      standard NSAIDs also increase the risk of cardiovascular events and the
+      ability to assess the relative safety of drugs in the same class remains
+      rather limited. This issue was a major driver of the considerable increase
+      in post‐marketing regulation, and focus on post‐authorisation safety
+      studies, which came to fruition in Europe in 2012 and is discussed in
+      Chapter 5.
+    </p>
+    <p>
+      Two other notable drug safety issues of recent years are also important:
+      the differing hazards associated with three glitazone drugs used to treat
+      type 2 diabetes, and the association of pandemic flu vaccine with
+      narcolepsy.
+    </p>
+    <h2 id="glitazones">Glitazones</h2>
+    <p>
+      Troglitazone was the first of the three glitazones to be marketed in the
+      late 1990s. These drugs are oral hypoglycaemics which work by ­activating
+      peroxisome proliferator‐activated receptors (PPARs). Soon after marketing,
+      a considerable number of case reports of severe hepa-toxicity with
+      associated liver failure were received and the drug was rapidly withdrawn
+      in Europe. At the time, the next in class, rosiglitazone, was in the later
+      stages of development and regulatory authorities therefore considered very
+      carefully whether it might also be associated with a similar level of
+      hepatotoxicity. They concluded (and were eventually proven right) that it
+      was probably different in this regard. Rosiglitazone became a very widely
+      used drug in the first few years of the twenty‐first century and it was
+      soon followed by pioglitazone. Studies of cardiovascular risk were
+      performed with these drugs in the expectation that an effective
+      anti‐diabetic drug would reduce the risk. However, when these studies were
+      brought together in a meta‐analysis (which combines the results of
+      multiple studies; see Chapter 3) published in 2007, the opposite appeared
+      to be the case for rosiglitazone. This concern was the subject of
+      considerable debate and further study but, within a couple of years, it
+      led to the demise of the drug. Much of that debate was about its relative
+      cardiovascular safety compared with pioglitazone.
+    </p>
+    <p>
+      Given that the benefits of the two drugs appeared broadly equal, and that
+      most of the available evidence suggested that pioglitazone was safer, it
+      was allowed to remain on the market. Interestingly, pioglitazone also
+      appears to be associated with its own particular important safety problem,
+      bladder cancer. This was originally identified in animal studies and in
+      the last few years has been confirmed in humans. However, the level of
+      risk is quite low, and considered manageable and to be outweighed by the
+      benefits of the drug in effectively treating type 2 diabetes. The safety
+      issues experienced with glitazones are remarkable. Despite the apparent
+      similarities of the drugs, they appear to be associated with different
+      important adverse effects affecting different organs.
+    </p>
+    <h2 id="pandemrix">Pandemrix</h2>
+    <p>
+      In 2009, there was an influenza pandemic reflecting the global spread of a
+      new strain of human flu H1N1 virus. In many countries, mass vaccinations
+      were undertaken with Pandemrix. In Finland and Sweden, case reports of a
+      vaccinated children and adolescents developing narcolepsy – a brain
+      disorder causing episodes of sudden onset of sleep at inappropriate times
+      were soon received. Formal studies have since confirmed this as a rare
+      risk but only in young people, and the mechanism for this effect remains
+      unclear. The effect has therefore been recognised in the product
+      information and it has been recommended that this vaccine should no longer
+      be used in patients under 20 years unless no other suitable vaccine is
+      available. This example illustrates the effectiveness of the intensive ADR
+      monitoring systems which were put in place to cover mass vaccinations
+      during a pandemic in picking up an unusual and important adverse reaction.
+    </p>
+    <h2 id="main-lessons-learned-from-recent-major-safety-issues">
+      Main Lessons Learned from Recent Major Safety Issues
+    </h2>
+    <p>
+      The need for vigorous follow‐up of safety signals with appropriate
+      studies. That drugs within the same class can have markedly different
+      risks and the need for studies that address this possibility. The
+      difficulty of assessing outcomes that are related to the drug indication.
+      The potential value of randomized controlled clinical trials in assessing
+      safety and the importance of the choice of comparator drug(s).
+    </p>
+    <p>
+      Important safety data can emerge from clinical trials performed for other
+      purposes. The need for greater transparency and increased availability of
+      clinical trial data. The potential importance to safety of off‐label use
+      (e.g. in children).
+    </p>
+    <p>
+      There is a need to evaluate medicines adequately in children and
+      adolescents. The need for greater patient involvement in drug safety.
+    </p>
+    <p>
+      The complexity of evaluating and communicating multiple risks (and
+      benefits). The need for regulatory authorities to have sufficient powers
+      to ensure that companies have adequate pharmacovigilance systems and
+      proactively investigate potential risks with marketed products.
+    </p>
+    <h2 id="conclusions">Conclusions</h2>
+    <p>
+      The issues discussed are necessarily selective and our discussion of them
+      is broad. The intention is primarily to illustrate that pharmacovigilance
+      experienced many teething problems in its early years and that most of its
+      developments have been in response to quite specific lessons learned from
+      landmark safety issues. In this chapter, we have tried to illustrate what
+      pharmacovigilance is and, by describing important examples, how it has
+      progressed over a period of more than half a century. Despite that
+      progress, no one should doubt that there is still a long way to go. The
+      current limitations of the discipline and how we might eventually overcome
+      them are considered in Chapter 9.
     </p>
   </body>
 </html>
