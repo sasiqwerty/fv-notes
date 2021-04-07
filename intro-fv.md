@@ -10,12 +10,12 @@
   - [4.1. Oral­ Contraceptives and ‘Pill Scares’](#41-oral-contraceptives-and-pill-scares)
   - [4.2. Main Lessons Learned from the OC Safety Issues](#42-main-lessons-learned-from-the-oc-safety-issues)
 - [5. Hormone­ Replacement Therapy (Menopausal Hormone Therapy)](#5-hormone-replacement-therapy-menopausal-hormone-therapy)
-- [Selective­ Serotonin Re‐uptake Inhibitors](#selective-serotonin-reuptake-inhibitors)
-- [COX‐2 Inhibitors](#cox2-inhibitors)
-- [Glitazones](#glitazones)
-- [Pandemrix](#pandemrix)
-- [Main Lessons Learned from Recent Major Safety Issues](#main-lessons-learned-from-recent-major-safety-issues)
-- [Conclusions](#conclusions)
+- [6. Selective­ Serotonin Re‐uptake Inhibitors](#6-selective-serotonin-reuptake-inhibitors)
+- [7. COX‐2 Inhibitors](#7-cox2-inhibitors)
+- [8. Glitazones](#8-glitazones)
+- [9. Pandemrix](#9-pandemrix)
+- [10. Main Lessons Learned from Recent Major Safety Issues](#10-main-lessons-learned-from-recent-major-safety-issues)
+- [11. Conclusions](#11-conclusions)
 
 ## 1. Thalidomide and Introduction
 
@@ -152,7 +152,7 @@ Later in life, women have also been prescribed sex hormones as replacement thera
 
 Eventually, large randomized trials of HRT were set up (e.g. the Million Women Study), but some studies had to be stopped early because they showed the opposite of what was expected – an increase in cardiovascular risk. Warnings were then issued by regulatory authorities and, because there is no major downside to suddenly stop-ping HRT, communication was intrinsically easier than with OCs. Indeed, the intended effect of the warnings was that women who were inappropriately using long‐term HRT should stop taking it. However, conveying the right messages was not straightforward because there were multiple risks involved, and they are time‐dependent and cannot simply be expressed as a proportion (e.g. 1 in 100). In 2007, the UK authorities published a report on HRT which included estimates of risk for several adverse outcomes, expressed in clear language. Since then, further studies of HRT have been published and discussion of the risks and benefits of these products continues, and is likely to for some time to come.
 
-## Selective­ Serotonin Re‐uptake Inhibitors
+## 6. Selective­ Serotonin Re‐uptake Inhibitors
 
 Selective serotonin re‐uptake inhibitors (SSRIs) are antidepressants which were brought to the market in the late 1980s and have since largely replaced older, tricyclic antidepressants such as amitriptyline. The main reason why they have done so – apart from effective marketing – is that they are less toxic to the heart in overdose (i.e. there is a greater margin of safety in relation to dose). Depressed patients are at risk of taking an overdose and therefore this is potentially an important advantage.
 
@@ -162,7 +162,7 @@ The possibility that any drug might increase the risk of an outcome associated w
 
 Over the years more clinical trial data accumulated for various drugs in the class and studies were conducted in children and adoles-cents, the latter being a high‐risk group for suicide. Even in severely depressed patients, completed suicides are rare in clinical trials and therefore the evidence available relates mostly to attempted suicide (also uncommon in trials) and thoughts of suicide measured on various scales. Trials of paroxetine in children produced adverse find-ings – an increased risk of suicidal behaviour and hostility – which for some time were known only to the manufacturer. When the regula-tory authorities eventually received the data, they issued warnings against the use of this drug in children. The company was investigated and prosecution considered, but the law was found to be insufficiently clear that the company was obliged to submit concerning clinical trial data immediately to the authorities when a trial was being conducted outside the authorised indication. Again, this issue pointed to the potential importance of clinical trials in the assessment of safety and raised concern about a lack of transparency with clinical trial data. Considerable steps have since been taken towards making clinical trial data publicly available through mechanisms other than publication in the literature which is slow and selective. There is still some uncertainty as to whether SSRIs directly increase the risk of suicide in adults, but there is general agreement that the early phase of treatment is a high‐risk period and that careful monitoring of patients is required.
 
-## COX‐2 Inhibitors
+## 7. COX‐2 Inhibitors
 
 What have been the most prominent drug safety issues of the twenty‐ first century? One of the most important has been the increased risk of cardiovascular outcomes associated with selective COX‐2 inhibitors (coxibs). This possibility was first uncovered in basic research but not followed through. The first clinical indication of a problem came from the VIGOR trial which was published in 2000. At the time, two drugs in the class – rofecoxib and celecoxib – had just been author-ised. The VIGOR study was a randomised comparison of rofecoxib with naproxen (a standard NSAID), designed to establish whether there was a difference in the rates of serious gastrointestinal adverse effects (e.g. bleeding) of these two drugs. In that respect, rofecoxib was clearly preferable and the trial results led to rapid uptake of cox-ibs, on the basis that they were supposedly safer. However, the VIGOR study also found an important difference in the rate of cardiovascular events such as myocardial infarction which were five‐fold more com-mon in patients taking rofecoxib than with naproxen. This information was included in the original publication but lacked prominence and was presented as a fivefold reduction with naproxen rather than an increase with rofecoxib. The paper was subsequently the subject of extensive criticism.
 
@@ -172,17 +172,17 @@ Ultimately, it took a large clinical trial comparing rofecoxib with placebo­ to
 
 Two other notable drug safety issues of recent years are also important: the differing hazards associated with three glitazone drugs used to treat type 2 diabetes, and the association of pandemic flu vaccine with narcolepsy.
 
-## Glitazones
+## 8. Glitazones
 
 Troglitazone was the first of the three glitazones to be marketed in the late 1990s. These drugs are oral hypoglycaemics which work by ­activating peroxisome proliferator‐activated receptors (PPARs). Soon after marketing, a considerable number of case reports of severe hepa-toxicity with associated liver failure were received and the drug was rapidly withdrawn in Europe. At the time, the next in class, rosiglitazone, was in the later stages of development and regulatory authorities therefore considered very carefully whether it might also be associated with a similar level of hepatotoxicity. They concluded (and were eventually proven right) that it was probably different in this regard. Rosiglitazone became a very widely used drug in the first few years of the twenty‐first century and it was soon followed by pioglitazone. Studies of cardiovascular risk were performed with these drugs in the expectation that an effective anti‐diabetic drug would reduce the risk. However, when these studies were brought together in a meta‐analysis (which combines the results of multiple studies; see Chapter 3) published in 2007, the opposite appeared to be the case for rosiglitazone. This concern was the subject of considerable debate and further study but, within a couple of years, it led to the demise of the drug. Much of that debate was about its relative cardiovascular safety compared with pioglitazone.
 
 Given that the benefits of the two drugs appeared broadly equal, and that most of the available evidence suggested that pioglitazone was safer, it was allowed to remain on the market. Interestingly, pioglitazone also appears to be associated with its own particular important safety problem, bladder cancer. This was originally identified in animal studies and in the last few years has been confirmed in humans. However, the level of risk is quite low, and considered manageable and to be outweighed by the benefits of the drug in effectively treating type 2 diabetes. The safety issues experienced with glitazones are remarkable. Despite the apparent similarities of the drugs, they appear to be associated with different important adverse effects affecting different organs.
 
-## Pandemrix
+## 9. Pandemrix
 
 In 2009, there was an influenza pandemic reflecting the global spread of a new strain of human flu H1N1 virus. In many countries, mass vaccinations were undertaken with Pandemrix. In Finland and Sweden, case reports of a vaccinated children and adolescents developing narcolepsy – a brain disorder causing episodes of sudden onset of sleep at inappropriate times were soon received. Formal studies have since confirmed this as a rare risk but only in young people, and the mechanism for this effect remains unclear. The effect has therefore been recognised in the product information and it has been recommended that this vaccine should no longer be used in patients under 20 years unless no other suitable vaccine is available. This example illustrates the effectiveness of the intensive ADR monitoring systems which were put in place to cover mass vaccinations during a pandemic in picking up an unusual and important adverse reaction.
 
-## Main Lessons Learned from Recent Major Safety Issues
+## 10. Main Lessons Learned from Recent Major Safety Issues
 
 The need for vigorous follow‐up of safety signals with appropriate studies.
 That drugs within the same class can have markedly different risks and the need for studies that address this possibility.
@@ -199,6 +199,6 @@ The need for greater patient involvement in drug safety.
 The complexity of evaluating and communicating multiple risks (and benefits).
 The need for regulatory authorities to have sufficient powers to ensure that companies have adequate pharmacovigilance systems and proactively investigate potential risks with marketed products.
 
-## Conclusions
+## 11. Conclusions
 
 The issues discussed are necessarily selective and our discussion of them is broad. The intention is primarily to illustrate that pharmacovigilance experienced many teething problems in its early years and that most of its developments have been in response to quite specific lessons learned from landmark safety issues. In this chapter, we have tried to illustrate what pharmacovigilance is and, by describing important examples, how it has progressed over a period of more than half a century. Despite that progress, no one should doubt that there is still a long way to go. The current limitations of the discipline and how we might eventually overcome them are considered in Chapter 9.
