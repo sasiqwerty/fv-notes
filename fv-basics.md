@@ -2,7 +2,7 @@
   - [1.1. Definitions](#11-definitions)
   - [1.2. Classification Systems](#12-classification-systems)
     - [1.2.1. DoTS Classification](#121-dots-classification)
-      - [1.2.1.1. DoTS Classification: Examples](#1211-dots-classification-examples)
+    - [1.2.1.1. DoTS Classification: Examples](#1211-dots-classification-examples)
   - [1.3. Nature and Mechanisms of ADRs](#13-nature-and-mechanisms-of-adrs)
   - [1.4. Predisposing Factors for ADRs](#14-predisposing-factors-for-adrs)
   - [1.5. Drug Interactions](#15-drug-interactions)
@@ -32,25 +32,21 @@ An adverse drug reaction (ADR) is an unintended and noxious effect that is attri
 
 An adverse event (AE) is an undesirable occurrence that occurs in the context of drug treatment but which may or may not be causally related to a medicine.
 
-The difference between an ADR and an AE is crucial and yet these terms are widely misused. In practice, determining whether a drug is responsible for a particular AE in an individual patient is often ­difficult and a judgement has to be made (for an explanation of the principles on which this judgement is based see Causality Assessment in Individual Cases). When the judgement is that the drug is a possible cause, this should be called a suspected ADR. Reports of such suspi-cions form the basis of spontaneous ADR reporting schemes and the key point about such data is that they are a subset of all the AEs occur-ring during drug treatment which someone (generally a health professional who has seen the patient) has identified as possibly being drug‐related. It is the clinician’s experience and professional judgement that enables him or her to suspect a drug as the cause but, of course, that suspicion may not be correct.
+The difference between an ADR and an AE is crucial and yet these terms are widely misused. In practice, determining whether a drug is responsible for a particular AE in an individual patient is often ­difficult and a judgement has to be made (for an explanation of the principles on which this judgement is based see Causality Assessment in Individual Cases). When the judgement is that the drug is a possible cause, this should be called a suspected ADR. Reports of such suspicions form the basis of spontaneous ADR reporting schemes and the key point about such data is that they are a subset of all the AEs occurring during drug treatment which someone (generally a health professional who has seen the patient) has identified as possibly being drug‐related. It is the clinician’s experience and professional judgement that enables him or her to suspect a drug as the cause but, of course, that suspicion may not be correct.
 
 Proper use of the term AE should imply that a more systematic data collection process has been used so that events will be included, regardless of whether anyone believes they might be caused by a drug. In most clinical trials it is a standard practice to document all AEs and the best way of determining whether a drug is responsible for a particular type of event from such data is by comparison with a control group. For example, if 10% of patients exposed to an active drug experienced headache compared to 2% on placebo, then this is an estimate that headache attributable to the drug occurs in 8% (i.e. 10% minus 2%) of patients using it. In such trials it is also common to ask investigators whether they believe that individual events are related to the drug. This is effectively another way of collecting suspected ADRs, although such data are likely to be more complete if the patient is in a clinical trial rather than being treated in ordinary practice. It is important to realise that relying on clinical judgement is a methodologically weaker approach. Providing that the estimated 8% difference is not based on very small numbers, then it would be more persuasive evidence that the drug causes headache.
 
 Thus, the three terms should be applied in the following contexts:
 
-Use ADR to mean that it is now generally accepted that drug x may cause effect y rather than in relation to individual cases. Qualify the term with ‘possible’ if there is doubt.
-
-Use suspected ADR when a health professional or investigator
-
-indicates­ that a drug may have been responsible for an event in an individual case. A valid case submitted as a spontaneous report to a company or regulatory authority (see Chapter 5) is, by definition, a suspected ADR.
-
-Use AE only in the context of systematic data collection when no element of judgement is involved in determining whether a case is counted.
+- Use ADR to mean that it is now generally accepted that drug x may cause effect y rather than in relation to individual cases. Qualify the term with ‘possible’ if there is doubt.
+- Use suspected ADR when a health professional or investigator indicates­ that a drug may have been responsible for an event in an individual case. A valid case submitted as a spontaneous report to a company or regulatory authority (see Chapter 5) is, by definition, a suspected ADR.
+- Use AE only in the context of systematic data collection when no element of judgement is involved in determining whether a case is counted.
 
 ### 1.2. Classification Systems
 
 Since the 1970s, ADRs have traditionally been classified into two broad categories: Types A and B. The usual characteristics of these different types of reactions are contrasted, followed by some examples:
 
-Type A (Augmented) reactions are generally:
+**Type A** (Augmented) reactions are generally:
 
 - Dose‐related
 - Predictable from drug pharmacology
@@ -60,7 +56,7 @@ Type A (Augmented) reactions are generally:
 
 Classic examples of Type A reactions are bleeding with warfarin, hypoglycaemia with oral anti‐diabetic agents and headache with nitrates.
 
-Type B (Bizarre) reactions are generally:
+**Type B** (Bizarre) reactions are generally:
 
 - Not dose‐related
 - Unpredictable
@@ -85,23 +81,19 @@ In terms of dose‐relatedness, ‘toxic’ means that reactions occur as a resu
 
 If suitable estimates of risk are available, it may be possible to draw three‐dimensional DoTS diagrams of the probability of an ADR occur-ring in sub‐groups over time and as a function of dose. When this is not possible, qualitative classification may still be useful, as shown by the following examples.
 
-##### 1.2.1.1. DoTS Classification: Examples
+#### 1.2.1.1. DoTS Classification: Examples
 
-Osteoporosis due to corticosteroids: this reaction occurs at therapeutic doses, usually after some months of treatment. Females and older people are at the greatest risk. Hence, it would be classified as:
+- Osteoporosis due to corticosteroids: this reaction occurs at therapeutic doses, usually after some months of treatment. Females and older people are at the greatest risk. Hence, it would be classified as:
 
-- Dose: collateral effect
-- Time: late
-- Susceptibility: age, sex.
+  - Dose: collateral effect
+  - Time: late
+  - Susceptibility: age, sex.
 
+- Anaphylaxis due to penicillin: this reaction can occur with very small doses and within minutes of taking the first dose of a course, but true anaphylaxis only occurs when the drug (or a closely related agent) has been used previously. Hence, it would be classified as:
 
-
-Anaphylaxis due to penicillin: this reaction can occur with very small doses and within minutes of taking the first dose of a course, but true anaphylaxis only occurs when the drug (or a closely related agent) has been used previously. Hence, it would be classified as:
-
-Dose: hypersusceptibility
-
-Time: first dose
-
-Susceptibility: requires previous sensitisation.
+  - Dose: hypersusceptibility
+  - Time: first dose
+  - Susceptibility: requires previous sensitisation.
 
 The DoTS approach is useful because it addresses the limitations of the Type A/B scheme into which many ADRs do not clearly fit and in providing pointers as to how specific ADRs can be avoided.
 
@@ -109,56 +101,45 @@ The DoTS approach is useful because it addresses the limitations of the Type A/B
 
 The adverse effects of medicines usually mimic diseases or syndromes that occur naturally and have a variety of non‐drug potential causes (e.g. hepatitis or aplastic anaemia). As a general rule, considering other potential causes is an important part of the assessment of a potential adverse effect (see Causality Assessment). However, there are a few unique syndromes that, as far as we yet know, seem to be caused only by specific drugs. Four examples of this are:
 
-Vaginal cancer in young women caused by maternal exposure to diethylstilboestrol
-Oculomucocutaneous syndrome caused by practolol (see Chapter 1)
+Vaginal cancer in young women caused by maternal exposure to diethylstilboestrol Oculomucocutaneous syndrome caused by practolol (see Chapter 1)
 
-Eosinophilia‐myalgia syndrome caused by some l‐tryptophan products
-Fibrosing colonopathy induced by large doses of high‐strength pancreatic enzymes in children with cystic fibrosis.
+Eosinophilia‐myalgia syndrome caused by some l‐tryptophan products Fibrosing colonopathy induced by large doses of high‐strength pancreatic enzymes in children with cystic fibrosis.
 
 In broad terms, there are at least four mechanisms for ADRs:
 
-Exaggerated therapeutic response at the target site (e.g. bleeding with warfarin)
-Desired pharmacological effect at another site (e.g. headache with glyceryltrinitrate)
-Additional (secondary) pharmacological actions (e.g. prolongation of the QT interval on the electrocardiogram – many drugs)
-Triggering an immunological response (e.g. anaphylaxis due to many drugs).
+- Exaggerated therapeutic response at the target site (e.g. bleeding with warfarin)
+- Desired pharmacological effect at another site (e.g. headache with glyceryltrinitrate)
+- Additional (secondary) pharmacological actions (e.g. prolongation of the QT interval on the electrocardiogram – many drugs)
+- Triggering an immunological response (e.g. anaphylaxis due to many drugs).
 
 Particularly at the time they are first identified, the mechanism of many ADRs is unknown or incompletely understood. Some have a pharmacokinetic basis e.g. impaired hepatic metabolism due to a genetic polymorphism or the effect of another medication taken con-currently, leading to increased plasma concentrations. Understanding genetic predispositions is likely to be an important factor in determining how we might prevent ADRs in the future (see Chapter 9).
 
 ### 1.4. Predisposing Factors for ADRs
 
 The main clinical factors that increase the chance that patients will experience an adverse reaction are as follows:
-Age – the elderly and neonates are at greatest risk.
 
-Gender – women are generally at higher risk.
-
-Ethnic origin – can affect drug metabolism because of genetic predisposition.
-Impaired excretory mechanisms – reduced hepatic and/or renal function.
-Specific diseases – e.g. asthma and beta‐blockers1.
-Polypharmacy –use of multiple drugs simultaneously, increasing the potential for drug interactions (see next section).
-Any previous history of an ADR.
+- Age – the elderly and neonates are at greatest risk.
+- Gender – women are generally at higher risk.
+- Ethnic origin – can affect drug metabolism because of genetic predisposition.
+- Impaired excretory mechanisms – reduced hepatic and/or renal function.
+- Specific diseases – e.g. asthma and beta‐blockers1.
+- Polypharmacy – use of multiple drugs simultaneously, increasing the potential for drug interactions (see next section).
+- Any previous history of an ADR.
 
 ### 1.5. Drug Interactions
 
 Drug interactions occur when the presence of one drug affects the activity of another. This occurs either because both drugs act through the same pathway(s) – these are called pharmacodynamic interactions – or through effects on absorption, distribution, metabolism or excretion – pharmacokinetic interactions. The result may be an adverse reaction or modified effectiveness. Some specific examples are given as follows:
 
-Pharmacodynamic – concomitant use of two drugs with similar effects. For example, an angiotensin converting enzyme (ACE) inhibitor plus a potassium‐sparing diuretic can result in hyperkalaemia and cardiac arrhythmias.
-
-1 This is a very important example because the effect of beta‐blockers in patients with asthma is to constrict the airways and to counteract some of the treatments that the patient may be taking (e.g. beta‐agonists). Giving a beta‐blocker to an asthmatic patient can prove to be fatal.
-
-Absorption – orlistat, a drug used to treat obesity, impairs the absorption of some medicines (e.g. anticonvulsants) and its use in this context could lead to convulsions.
-
-Distribution – protein‐bound drugs (e.g. phenytoin, aspirin) can displace each other, resulting in an increased unbound (i.e. active) fraction of drug in plasma.
-
-Metabolism – many medicines (e.g. cimetidine and omeprazole), drugs that reduce gastric acid by different mechanisms, inhibit the metabolism of warfarin and thereby increase its anticoagulant effect, leading to bleeding reactions.
-
-Excretion – amiodarone, an anti‐arrhythmic drug, reduces excretion of, and therefore the dosage requirements for, digoxin – a drug widely prescribed to patients with cardiac disease.
-
-Many drugs are metabolised by hepatic cytochrome P450 (CYP450) enzymes, the activity of which may be induced or inhibited by a wide variety of drugs. There are several subgroups of CYP450 enzymes and their activity can also be affected by:
-
-Herbal medicines – e.g. St John’s wort is an enzyme inducer and can reduce the effectiveness of various drugs including ciclosporin.
-Dietary products – e.g. grapefruit juice is an enzyme inhibitor and increases plasma concentrations of some calcium channel blockers, drugs that are used to treat hypertension and angina.
-
-Drugs can also interact with alcohol – for example, metronidazole (an antibiotic) blocks part of the metabolic pathway for alcohol and concomitant use, which is not recommended, leads to intense vasodilatation.
+- Pharmacodynamic – concomitant use of two drugs with similar effects. For example, an angiotensin converting enzyme (ACE) inhibitor plus a potassium‐sparing diuretic can result in hyperkalaemia and cardiac arrhythmias.
+  - This is a very important example because the effect of beta‐blockers in patients with asthma is to constrict the airways and to counteract some of the treatments that the patient may be taking (e.g. beta‐agonists). Giving a beta‐blocker to an asthmatic patient can prove to be fatal.
+- Absorption – orlistat, a drug used to treat obesity, impairs the absorption of some medicines (e.g. anticonvulsants) and its use in this context could lead to convulsions.
+- Distribution – protein‐bound drugs (e.g. phenytoin, aspirin) can displace each other, resulting in an increased unbound (i.e. active) fraction of drug in plasma.
+- Metabolism – many medicines (e.g. cimetidine and omeprazole), drugs that reduce gastric acid by different mechanisms, inhibit the metabolism of warfarin and thereby increase its anticoagulant effect, leading to bleeding reactions.
+- Excretion – amiodarone, an anti‐arrhythmic drug, reduces excretion of, and therefore the dosage requirements for, digoxin – a drug widely prescribed to patients with cardiac disease.
+- Many drugs are metabolised by hepatic cytochrome P450 (CYP450) enzymes, the activity of which may be induced or inhibited by a wide variety of drugs. There are several subgroups of CYP450 enzymes and their activity can also be affected by:
+- Herbal medicines – e.g. St John’s wort is an enzyme inducer and can reduce the effectiveness of various drugs including ciclosporin.
+- Dietary products – e.g. grapefruit juice is an enzyme inhibitor and increases plasma concentrations of some calcium channel blockers, drugs that are used to treat hypertension and angina.
+- Drugs can also interact with alcohol – for example, metronidazole (an antibiotic) blocks part of the metabolic pathway for alcohol and concomitant use, which is not recommended, leads to intense vasodilatation.
 
 ## 2. The­ Concept of Safety
 
@@ -191,6 +172,7 @@ The rule of three works very well provided the size of the population is at leas
 There are two basic components to safety:
 
 Intrinsic safety – some drugs are intrinsically and obviously safer than others at therapeutic doses. For example, the adverse reactions produced by paracetamol compared with cytotoxic drugs.
+
 User‐dependent safety – the safety of a drug can also depend on how it is used. For example, monitoring white blood cell count in users of clozapine can completely prevent reduction in white blood cells to a level that would potentially have fatal consequences. Using the drug without such monitoring is therefore clearly less safe than following the recommended procedure. Another example of safety being user‐dependent would be giving penicillin to someone who is allergic to it, perhaps because that information has been ignored or is not available. In such a case, the safeguard (i.e. means of minimising the risk) is avoidance of a specific drug in a particular individual. Using an appropriate dose of medicine is an example of practising risk minimisation that applies to most therapeutic situations.
 
 The amount of safety knowledge available for a drug depends on how much it has been studied and used. Broadly, there are four categories of safety in respect of the amount of knowledge available:
@@ -267,9 +249,7 @@ Nature of the event – some clinical events are often caused by drugs and immed
 
 Plausibility – is the reaction already recognised with this drug (or similar drugs) or can a biological mechanism be postulated based on the pharmacology of the drug?
 
-In terms of temporal association, sometimes causation can be definitely excluded; for example, ADRs cannot start before the drug is given (although drugs can worsen existing diseases). On the other hand, a positive rechallenge in the absence of alternative causes is
-
-generally­ considered to be strong evidence for causation. While most ADRs start early on in treatment this is not invariably true, as reflected in the time course element of the DoTS classification already discussed.
+In terms of temporal association, sometimes causation can be definitely excluded; for example, ADRs cannot start before the drug is given (although drugs can worsen existing diseases). On the other hand, a positive rechallenge in the absence of alternative causes is generally­ considered to be strong evidence for causation. While most ADRs start early on in treatment this is not invariably true, as reflected in the time course element of the DoTS classification already discussed.
 
 Merely because an alternative cause can be identified does not mean that it was responsible. Possible other causes are often called ‘confounding­ factors’ and when they are present, cases are said to be ‘confounded’. This is rather loose use of the word (see Figure 2.1) and best avoided.
 
