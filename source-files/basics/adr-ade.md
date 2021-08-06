@@ -28,7 +28,7 @@ Providing that the estimated 8% difference is not based on very small numbers, t
 Thus, the three terms should be applied in the following contexts: Use Adverse drug reaction to mean that it is now generally accepted that drug x may cause effect y rather than in relation to individual cases.
 Qualify the term with 'possible' if there is doubt.
 
-## Nature and Mechanism of Adverse drug reactions
+## Nature and Mechanism of Adverse Drug Reactions
 
 The adverse effects of medicines usually mimic diseases or syndromes that occur naturally and have a variety of non‐drug potential causes (e.g. hepatitis or aplastic anaemia). As a general rule, considering other potential causes is an important part of the assessment of a potential adverse effect. However, there are a few unique syndromes that, as far as we yet know, seem to be caused only by specific drugs.
 
@@ -41,3 +41,15 @@ In broad terms, there are at least four mechanisms for ADRs:
 - Desired pharmacological effect at another site
 - Additional (secondary) pharmacological actions
 - Triggering an immunological response
+
+## Predisposing Factors for Adverse Drug Reactions
+
+The main clinical factors that increase the chance that patients will experience an adverse reaction are as follows
+- Age
+- Gender
+- sex
+- ethnic origin
+- impaired excretory mechanisms
+- specific diseases
+- polypharmacy
+- Any previous history of an ADRDr
