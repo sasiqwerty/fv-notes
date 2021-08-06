@@ -1,5 +1,8 @@
 # Understanding Adverse Drug Events and Reactions
 
+## Introduction
+
+
 The difference between an Adverse drug reaction and an Adverse event is crucial and yet these terms are widely misused.
 
 In practice, determining whether a drug is responsible for a particular Adverse event in an individual patient is often difficult and a judgement has to be made (for an explanation of the principles on which this judgement is based see Causality Assessment in Individual Cases).
@@ -24,3 +27,17 @@ Providing that the estimated 8% difference is not based on very small numbers, t
 
 Thus, the three terms should be applied in the following contexts: Use Adverse drug reaction to mean that it is now generally accepted that drug x may cause effect y rather than in relation to individual cases.
 Qualify the term with 'possible' if there is doubt.
+
+## Nature and Mechanism of Adverse drug reactions
+
+The adverse effects of medicines usually mimic diseases or syndromes that occur naturally and have a variety of non‐drug potential causes (e.g. hepatitis or aplastic anaemia). As a general rule, considering other potential causes is an important part of the assessment of a potential adverse effect. However, there are a few unique syndromes that, as far as we yet know, seem to be caused only by specific drugs.
+
+Particularly at the time they are first identified, the mechanism of many ADRs is unknown or incompletely understood.
+
+Understanding genetic predispositions is likely to be an important factor in determining how we might prevent ADRs in the future.
+
+In broad terms, there are at least four mechanisms for ADRs:
+- Exaggerated therapeutic response at the target site
+- Desired pharmacological effect at another site
+- Additional (secondary) pharmacological actions
+- Triggering an immunological response
