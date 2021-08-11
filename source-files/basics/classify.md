@@ -1,17 +1,17 @@
 # Classification Systems
 
-## A B Classification system
+## A/B Classification system
 
-Since the Since the 1970s, ADRs have traditionally been classified into two broad categories: Types A and B. The usual characteristics of these different types of reactions are contrasted, followed by some examples:
+Since the 1970s, ADRs have traditionally been classified into two broad categories: Types A and B. The usual characteristics of these different types of reactions are contrasted, followed by some examples:
 
-- It is considered to be type A which stands for augmented, if the reactions are generally,
+- It is considered to be type "A" which stands for augmented, if the reactions are generally,
   - Dose‐related
   - Predictable from drug pharmacology
   - Common
   - Reversible
   - Manageable with dose adjustment.
 
-- It is considered to be type B which stands for bizarre, if the reactions are generally,
+- It is considered to be type "B" which stands for bizarre, if the reactions are generally,
   - not dose related
   - unpredictable
   - uncommon 
@@ -22,9 +22,15 @@ Since the Since the 1970s, ADRs have traditionally been classified into two broa
 
 ## DoTS Classification
 
-In 2003, a system of classification was proposed by Aronson and Ferner based on dose‐relatedness, time course and susceptibility; this is known as DoTS.
+In 2003, a system of classification was proposed by Aronson and Ferner known as DoTS. It is based on
+- dose‐relatedness
+- time course
+- susceptibility
 
-In terms of dose‐relatedness, ‘toxic’ means that reactions occur as a result of drug levels being too high, ‘collateral’ means that reactions occur at drug levels that are in the usual therapeutic range and ‘­hypersusceptibility’ means that reactions can occur even at very low, sub‐therapeutic doses.
+The following terms are defined in the terms of dose-relatedness:
+- *toxic* means that reactions occur as a result of drug levels being too high.
+- *Collateral* means that reactions occur at drug levels that are in the usual therapeutic range.
+- *­Hyper-susceptibility* means that reactions can occur even at very low, sub‐therapeutic doses.
 
 The terms ‘early’, ‘intermediate’ and ‘late’ have not been precisely defined; the main difference between ‘late’ and ‘delayed’ reactions is that the latter can occur long after treatment is stopped.
 
